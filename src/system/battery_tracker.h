@@ -1,6 +1,9 @@
 #ifndef SLIMENRF_SYSTEM_BATTERY_TRACKER
 #define SLIMENRF_SYSTEM_BATTERY_TRACKER
 
+#include <stdbool.h>
+#include <stdint.h>
+
 void sys_update_battery_tracker_voltage(int mV, bool plugged);
 void sys_update_battery_tracker(int16_t pptt, bool plugged);
 
