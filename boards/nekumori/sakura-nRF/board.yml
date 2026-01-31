@@ -5,7 +5,7 @@
 # where ICM is on SPI, AK is on I2C, external clock disabled.
 
 board:
-  name: sakura-nRF
+  name: sakura-nRF_uf2
   vendor: nekumori
   socs:
     - name: nrf52833
