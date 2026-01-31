@@ -29,9 +29,9 @@ jobs:
               filename: "Kawazu_Tracker",
             },
             {
-              boardname: "promicro_uf2/nrf52840/chrysalis",
+              boardname: "sakura-nRF_uf2/nrf52833/chrysalis",
               fileformat: "uf2",
-              filename: "SlimeNRF_ProMicro_Chrysalis_Tracker",
+              filename: "Sakura-nRF_Chrysalis_Tracker",
             },
           ]
     if: always()
