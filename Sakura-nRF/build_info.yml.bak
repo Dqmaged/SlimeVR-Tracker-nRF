@@ -1,0 +1,22 @@
+cmake:
+  board:
+    name: 'sakuranrf_uf2'
+    path:
+     - 'F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/boards/nekumori/sakuranrf'
+    qualifiers: 'nrf52833/chrysalis'
+    revision: ''
+  images:
+   - name: 'SlimeVR-Tracker-nRF'
+     source-dir: 'F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF'
+     type: 'MAIN'
+  kconfig:
+    files:
+     - 'F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/empty.conf'
+     - 'F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/empty.conf'
+    user-files:
+     - 'F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/empty.conf'
+version: '0.1.0'
+west:
+  command: 'C:\ncs\toolchains\66cdf9b75e\opt\bin\Scripts\west build --build-dir f:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF f:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF --pristine --board sakuranrf_uf2/nrf52833/chrysalis -- -DCONFIG_DEBUG_THREAD_INFO=y -DBOARD_ROOT=f:/nrf-firmware-dqedit/slimevr-tracker-nrf'
+  topdir: 'c:\ncs\v3.2.0'
+  version: '1.4.0'

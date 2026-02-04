@@ -1,0 +1,458 @@
+The target system is: Generic - 4.2.99 - arm
+The host system is: Windows - 10.0.22631 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/ncs/toolchains/66cdf9b75e/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/ncs/toolchains/66cdf9b75e/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-zephyr-eabi-gcc.exe (Zephyr SDK 0.17.0) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_ac6a3 && [1/2] Building C object CMakeFiles/cmTC_ac6a3.dir/src.c.obj
+[2/2] Linking C executable cmTC_ac6a3
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wall_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_5aff9 && [1/2] Building C object CMakeFiles/cmTC_5aff9.dir/src.c.obj
+[2/2] Linking C executable cmTC_5aff9
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wformat__Wformat_security_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_b703f && [1/2] Building C object CMakeFiles/cmTC_b703f.dir/src.c.obj
+[2/2] Linking C executable cmTC_b703f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wformat__Wformat_zero_length_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_56eec && [1/2] Building C object CMakeFiles/cmTC_56eec.dir/src.c.obj
+[2/2] Linking C executable cmTC_56eec
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wdouble_promotion_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_26874 && [1/2] Building C object CMakeFiles/cmTC_26874.dir/src.c.obj
+[2/2] Linking C executable cmTC_26874
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wpointer_sign_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_66b11 && [1/2] Building C object CMakeFiles/cmTC_66b11.dir/src.c.obj
+[2/2] Linking C executable cmTC_66b11
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wpointer_arith_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_bb536 && [1/2] Building C object CMakeFiles/cmTC_bb536.dir/src.c.obj
+[2/2] Linking C executable cmTC_bb536
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wexpansion_to_defined_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_39cb8 && [1/2] Building C object CMakeFiles/cmTC_39cb8.dir/src.c.obj
+[2/2] Linking C executable cmTC_39cb8
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wlogical_op_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_8268c && [1/2] Building C object CMakeFiles/cmTC_8268c.dir/src.c.obj
+[2/2] Linking C executable cmTC_8268c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wmissing_field_initializers_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_ad736 && [1/2] Building C object CMakeFiles/cmTC_ad736.dir/src.c.obj
+[2/2] Linking C executable cmTC_ad736
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wpacked_bitfield_compat_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_c0150 && [1/2] Building C object CMakeFiles/cmTC_c0150.dir/src.c.obj
+[2/2] Linking C executable cmTC_c0150
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wvla_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_c82e3 && [1/2] Building C object CMakeFiles/cmTC_c82e3.dir/src.c.obj
+[2/2] Linking C executable cmTC_c82e3
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wunused_but_set_variable_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_f9239 && [1/2] Building C object CMakeFiles/cmTC_f9239.dir/src.c.obj
+[2/2] Linking C executable cmTC_f9239
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Werror_implicit_int_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_11880 && [1/2] Building C object CMakeFiles/cmTC_11880.dir/src.c.obj
+[2/2] Linking C executable cmTC_11880
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_printf_return_value_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_8c8dc && [1/2] Building C object CMakeFiles/cmTC_8c8dc.dir/src.c.obj
+[2/2] Linking C executable cmTC_8c8dc
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_mstack_protector_guard_global_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_806bf && [1/2] Building C object CMakeFiles/cmTC_806bf.dir/src.c.obj
+[2/2] Linking C executable cmTC_806bf
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fsanitize_undefined_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_608ba && [1/2] Building C object CMakeFiles/cmTC_608ba.dir/src.c.obj
+[2/2] Linking C executable cmTC_608ba
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fsanitize_undefined_trap_on_error_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_2253d && [1/2] Building C object CMakeFiles/cmTC_2253d.dir/src.c.obj
+[2/2] Linking C executable cmTC_2253d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_freestanding_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_7b9b0 && [1/2] Building C object CMakeFiles/cmTC_7b9b0.dir/src.c.obj
+[2/2] Linking C executable cmTC_7b9b0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_ffreestanding_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_827ba && [1/2] Building C object CMakeFiles/cmTC_827ba.dir/src.c.obj
+[2/2] Linking C executable cmTC_827ba
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_gdwarf_4_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_86807 && [1/2] Building C object CMakeFiles/cmTC_86807.dir/src.c.obj
+[2/2] Linking C executable cmTC_86807
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fdiagnostics_color_always_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_69a6f && [1/2] Building C object CMakeFiles/cmTC_69a6f.dir/src.c.obj
+[2/2] Linking C executable cmTC_69a6f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___gc_sections succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_8e00b && [1/2] Building C object CMakeFiles/cmTC_8e00b.dir/src.c.obj
+[2/2] Linking C executable cmTC_8e00b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___build_id_none succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_27650 && [1/2] Building C object CMakeFiles/cmTC_27650.dir/src.c.obj
+[2/2] Linking C executable cmTC_27650
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__nostdlib succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_ec69e && [1/2] Building C object CMakeFiles/cmTC_ec69e.dir/src.c.obj
+[2/2] Linking C executable cmTC_ec69e
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__static succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_a7a48 && [1/2] Building C object CMakeFiles/cmTC_a7a48.dir/src.c.obj
+[2/2] Linking C executable cmTC_a7a48
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__X succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_30406 && [1/2] Building C object CMakeFiles/cmTC_30406.dir/src.c.obj
+[2/2] Linking C executable cmTC_30406
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__N succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_d64c0 && [1/2] Building C object CMakeFiles/cmTC_d64c0.dir/src.c.obj
+[2/2] Linking C executable cmTC_d64c0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_warn succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_a3be4 && [1/2] Building C object CMakeFiles/cmTC_a3be4.dir/src.c.obj
+[2/2] Linking C executable cmTC_a3be4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_error succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_f047c && [1/2] Building C object CMakeFiles/cmTC_f047c.dir/src.c.obj
+[2/2] Linking C executable cmTC_f047c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___print_memory_usage succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_f4723 && [1/2] Building C object CMakeFiles/cmTC_f4723.dir/src.c.obj
+[2/2] Linking C executable cmTC_f4723
+Memory region         Used Size  Region Size  %age Used
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fsanitize_undefined succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_75d86 && [1/2] Building C object CMakeFiles/cmTC_75d86.dir/src.c.obj
+[2/2] Linking C executable cmTC_75d86
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fsanitize_undefined_trap_on_error succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_4c417 && [1/2] Building C object CMakeFiles/cmTC_4c417.dir/src.c.obj
+[2/2] Linking C executable cmTC_4c417
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___no_relax succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_c0c01 && [1/2] Building C object CMakeFiles/cmTC_c0c01.dir/src.c.obj
+[2/2] Linking C executable cmTC_c0c01
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_common_descending succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_6d93c && [1/2] Building C object CMakeFiles/cmTC_6d93c.dir/src.c.obj
+[2/2] Linking C executable cmTC_6d93c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_section_alignment succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_265f3 && [1/2] Building C object CMakeFiles/cmTC_265f3.dir/src.c.obj
+[2/2] Linking C executable cmTC_265f3
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__pg succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_334c0 && [1/2] Building C object CMakeFiles/cmTC_334c0.dir/src.c.obj
+[2/2] Linking C executable cmTC_334c0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__mcpu_cortex_m4__mthumb__mabi_aapcs__mfpu_fpv4_sp_d16__mfloat_abi_hard__mfp16_format_ieee__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_4ff0b && [1/2] Building C object CMakeFiles/cmTC_4ff0b.dir/src.c.obj
+[2/2] Linking C executable cmTC_4ff0b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_asynchronous_unwind_tables_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_34769 && [1/2] Building C object CMakeFiles/cmTC_34769.dir/src.c.obj
+[2/2] Linking C executable cmTC_34769
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_reorder_functions_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_1804a && [1/2] Building C object CMakeFiles/cmTC_1804a.dir/src.c.obj
+[2/2] Linking C executable cmTC_1804a
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check__param_min_pagesize_0_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_2c0d3 && [1/2] Building C object CMakeFiles/cmTC_2c0d3.dir/src.c.obj
+[2/2] Linking C executable cmTC_2c0d3
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_defer_pop_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_acaec && [1/2] Building C object CMakeFiles/cmTC_acaec.dir/src.c.obj
+[2/2] Linking C executable cmTC_acaec
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map_F__nRF_Firmware_DqEdit_SlimeVR_Tracker_nRF_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_d7c83 && [1/2] Building C object CMakeFiles/cmTC_d7c83.dir/src.c.obj
+[2/2] Linking C executable cmTC_d7c83
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map_C__ncs_v3_2_0_zephyr_ZEPHYR_BASE_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_40405 && [1/2] Building C object CMakeFiles/cmTC_40405.dir/src.c.obj
+[2/2] Linking C executable cmTC_40405
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map_C__ncs_v3_2_0_WEST_TOPDIR_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_3c88f && [1/2] Building C object CMakeFiles/cmTC_3c88f.dir/src.c.obj
+[2/2] Linking C executable cmTC_3c88f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_ffunction_sections_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_2e24c && [1/2] Building C object CMakeFiles/cmTC_2e24c.dir/src.c.obj
+[2/2] Linking C executable cmTC_2e24c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fdata_sections_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_66cdf9b75e_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/66cdf9b75e/opt/bin/ninja.exe cmTC_7f35a && [1/2] Building C object CMakeFiles/cmTC_7f35a.dir/src.c.obj
+[2/2] Linking C executable cmTC_7f35a
+
+
+Source file was:
+int main(void) { return 0; }

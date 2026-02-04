@@ -1,0 +1,2 @@
+# Load Zephyr board defconfig descriptions.
+osource "F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/boards/nekumori/sakuranrf/Kconfig.defconfig"

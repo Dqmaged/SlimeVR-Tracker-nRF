@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/CMakeFiles/SlimeVR-Tracker-nRF"
+		},
+		{
+			"file" : "F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/CMakeFiles/SlimeVR-Tracker-nRF.rule"
+		},
+		{
+			"file" : "F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/CMakeFiles/SlimeVR-Tracker-nRF-complete.rule"
+		},
+		{
+			"file" : "F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-build.rule"
+		},
+		{
+			"file" : "F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-configure.rule"
+		},
+		{
+			"file" : "F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-download.rule"
+		},
+		{
+			"file" : "F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-install.rule"
+		},
+		{
+			"file" : "F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-mkdir.rule"
+		},
+		{
+			"file" : "F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-patch.rule"
+		},
+		{
+			"file" : "F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SlimeVR-Tracker-nRF"
+		],
+		"name" : "SlimeVR-Tracker-nRF"
+	}
+}

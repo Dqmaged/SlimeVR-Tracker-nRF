@@ -1,0 +1,11 @@
+# ninja log v5
+0	95	7918913054212989	_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-mkdir	7c5e72d2efbdb76b
+0	95	7918913054212989	F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-mkdir	7c5e72d2efbdb76b
+95	127	7918913054532021	_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-download	8908c0e7f4c2f736
+95	127	7918913054532021	F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-download	8908c0e7f4c2f736
+127	160	7918913054862095	_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-update	97bad17c0cd3943a
+127	160	7918913054862095	F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-update	97bad17c0cd3943a
+161	191	7918913055171258	_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-patch	56890444e12afcb3
+161	191	7918913055171258	F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-patch	56890444e12afcb3
+191	222	7918913055480482	_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-configure	5b2ef5b9763c0c05
+191	222	7918913055480482	F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-configure	5b2ef5b9763c0c05
