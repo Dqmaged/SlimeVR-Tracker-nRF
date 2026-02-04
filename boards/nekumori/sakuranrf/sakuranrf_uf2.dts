@@ -8,14 +8,14 @@
 &pinctrl {
 	i2c0_default: i2c0_default {
 		group1 {
-			psels = <NRF_PSEL(TWIM_SDA, 0, 6)>, <NRF_PSEL(TWIM_SCL, 0, 8)>;
+			psels = <NRF_PSEL(TWIM_SDA, 0, 0)>, <NRF_PSEL(TWIM_SCL, 0, 1)>;
 			bias-disable;
 		};
 	};
 
 	i2c0_sleep: i2c0_sleep {
 		group1 {
-			psels = <NRF_PSEL(TWIM_SDA, 0, 6)>, <NRF_PSEL(TWIM_SCL, 0, 8)>;
+			psels = <NRF_PSEL(TWIM_SDA, 0, 0)>, <NRF_PSEL(TWIM_SCL, 0, 1)>;
 			bias-disable;
 			low-power-enable;
 		};
@@ -23,14 +23,14 @@
 
 	pwm0_default: pwm0_default {
 		group1 {
-			psels = <NRF_PSEL(PWM_OUT0, 0, 15)>;
+			psels = <NRF_PSEL(PWM_OUT0, 0, 11)>;
 			nordic,drive-mode = <NRF_DRIVE_D0S1>;
 		};
 	};
 
 	pwm0_sleep: pwm0_sleep {
 		group1 {
-			psels = <NRF_PSEL(PWM_OUT0, 0, 15)>;
+			psels = <NRF_PSEL(PWM_OUT0, 0, 11)>;
 			low-power-enable;
 		};
 	};
@@ -50,17 +50,17 @@
 
 	spi3_default: spi3_default {
 		group1 {
-			psels = <NRF_PSEL(SPIM_MISO, 0, 24)>,
-					<NRF_PSEL(SPIM_MOSI, 0, 6)>,
-					<NRF_PSEL(SPIM_SCK, 0, 8)>;
+			psels = <NRF_PSEL(SPIM_MISO, 0, 15)>,
+					<NRF_PSEL(SPIM_MOSI, 0, 0)>,
+					<NRF_PSEL(SPIM_SCK, 0, 1)>;
 		};
 	};
 
 	spi3_sleep: spi3_sleep {
 		group1 {
-			psels = <NRF_PSEL(SPIM_MISO, 0, 24)>,
-					<NRF_PSEL(SPIM_MOSI, 0, 6)>,
-					<NRF_PSEL(SPIM_SCK, 0, 8)>;
+			psels = <NRF_PSEL(SPIM_MISO, 0, 15)>,
+					<NRF_PSEL(SPIM_MOSI, 0, 0)>,
+					<NRF_PSEL(SPIM_SCK, 0, 1)>;
 			low-power-enable;
 		};
 	};
@@ -68,8 +68,8 @@
 //end
 
 / {
-	model = "promicro_uf2";
-	compatible = "promicro_uf2";
+	model = "sakuranrf_uf2";
+	compatible = "sakuranrf_uf2";
 
 	chosen {
 		zephyr,sram = &sram0;
@@ -107,7 +107,7 @@
 	battery-divider {
 		compatible = "voltage-divider";
 		status = "okay";
-		io-channels = <&adc 12>; // Measure VDDHDIV5
+		io-channels = <&adc 4>; // Measure VDDHDIV5
 		output-ohms = <1>;
 		full-ohms = <5>;
 	};
