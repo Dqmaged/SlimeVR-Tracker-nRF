@@ -322,7 +322,6 @@ F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/module
 F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrf/drivers/flash/CMakeFiles/rebuild_cache.dir
 F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrf/drivers/gpio/CMakeFiles/edit_cache.dir
 F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrf/drivers/gpio/CMakeFiles/rebuild_cache.dir
-F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrf/drivers/hw_cc3xx/CMakeFiles/..__nrf__drivers__hw_cc3xx.dir
 F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrf/drivers/hw_cc3xx/CMakeFiles/edit_cache.dir
 F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrf/drivers/hw_cc3xx/CMakeFiles/rebuild_cache.dir
 F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrf/drivers/serial/CMakeFiles/edit_cache.dir
@@ -423,8 +422,6 @@ F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/module
 F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrfxlib/CMakeFiles/rebuild_cache.dir
 F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrfxlib/nrfxlib/CMakeFiles/edit_cache.dir
 F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrfxlib/nrfxlib/CMakeFiles/rebuild_cache.dir
-F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrfxlib/nrfxlib/crypto/CMakeFiles/edit_cache.dir
-F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrfxlib/nrfxlib/crypto/CMakeFiles/rebuild_cache.dir
 F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrfxlib/nrfxlib/mpsl/CMakeFiles/edit_cache.dir
 F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrfxlib/nrfxlib/mpsl/CMakeFiles/rebuild_cache.dir
 F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrfxlib/nrfxlib/mpsl/fem/CMakeFiles/edit_cache.dir

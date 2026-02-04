@@ -5,7 +5,7 @@ flash_primary:
   dynamic_partition: null
   name: flash_primary
   placement_strategy: complex
-  size: 0x100000
+  size: 0x80000
 sram_primary:
   base_address: 0x20000000
   default_driver_kconfig: ''

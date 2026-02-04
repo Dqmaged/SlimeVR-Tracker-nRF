@@ -2,7 +2,7 @@
 _region_min_align = 128;
 MEMORY
     {
-    FLASH (rx) : ORIGIN = 0x0, LENGTH = 0xfa000
+    FLASH (rx) : ORIGIN = 0x0, LENGTH = 0x7a000
     RAM (wx) : ORIGIN = 0x20000000, LENGTH = 0x3f000
     RETAINED_MEM ( rw ) : ORIGIN = (537128960), LENGTH = (4096) DFU_DBL_RESET_MEM ( rw ) : ORIGIN = (536903548), LENGTH = (4)
     IDT_LIST (wx) : ORIGIN = 0xFFFF7FFF, LENGTH = 32K

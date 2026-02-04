@@ -39,11 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrfxlib/nrfxlib/crypto/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF/modules/nrfxlib/nrfxlib/mpsl/cmake_install.cmake")
 endif()
 

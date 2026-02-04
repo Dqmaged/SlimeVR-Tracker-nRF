@@ -11,7 +11,7 @@
 
 
 /dts-v1/;
-# 1 "C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52840_qiaa.dtsi" 1 3 4
+# 1 "C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52833_qiaa.dtsi" 1 3 4
 
 
 
@@ -19,8 +19,8 @@
 
 
 # 1 "C:/ncs/v3.2.0/zephyr/dts/common/mem.h" 1 3 4
-# 8 "C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52840_qiaa.dtsi" 2 3 4
-# 1 "C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52840.dtsi" 1 3 4
+# 8 "C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52833_qiaa.dtsi" 2 3 4
+# 1 "C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52833.dtsi" 1 3 4
 
 
 
@@ -62,7 +62,7 @@
   };
  };
 };
-# 8 "C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52840.dtsi" 2 3 4
+# 8 "C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52833.dtsi" 2 3 4
 # 1 "C:/ncs/v3.2.0/zephyr/dts/vendor/nordic/nrf_common.dtsi" 1 3 4
 
 
@@ -141,16 +141,16 @@
   #pwm-cells = <3>;
  };
 };
-# 9 "C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52840.dtsi" 2 3 4
+# 9 "C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52833.dtsi" 2 3 4
 # 1 "C:/ncs/v3.2.0/zephyr/include/zephyr/dt-bindings/adc/nrf-saadc.h" 1 3 4
-# 10 "C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52840.dtsi" 2 3 4
+# 10 "C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52833.dtsi" 2 3 4
 # 1 "C:/ncs/v3.2.0/zephyr/include/zephyr/dt-bindings/regulator/nrf5x.h" 1 3 4
-# 11 "C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52840.dtsi" 2 3 4
+# 11 "C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52833.dtsi" 2 3 4
 
 / {
  chosen {
   zephyr,bt-hci = &bt_hci_sdc;
-  zephyr,entropy = &cryptocell;
+  zephyr,entropy = &rng;
   zephyr,flash-controller = &flash_controller;
  };
 
@@ -237,6 +237,13 @@
     regulator-name = "REG1";
     regulator-initial-mode = <0>;
    };
+
+   reg0: regulator@40000580 {
+    compatible = "nordic,nrf52x-regulator-hv";
+    reg = <0x40000580 0x1>;
+    regulator-name = "REG0";
+    status = "disabled";
+   };
   };
 
   radio: radio@40001000 {
@@ -244,6 +251,7 @@
    reg = <0x40001000 0x1000>;
    interrupts = <1 1>;
    status = "okay";
+   dfe-supported;
    ieee802154-supported;
    ble-2mbps-supported;
    ble-coded-phy-supported;
@@ -435,6 +443,7 @@
    reg = <0x4000f000 0x1000>;
    interrupts = <15 1>;
    length-field-length-8-bits;
+   headermask-supported;
    status = "okay";
   };
 
@@ -655,16 +664,6 @@
    status = "disabled";
   };
 
-  qspi: qspi@40029000 {
-   compatible = "nordic,nrf-qspi";
-   #address-cells = <1>;
-   #size-cells = <0>;
-   reg = <0x40029000 0x1000>, <0x12000000 0x8000000>;
-   reg-names = "qspi", "qspi_mm";
-   interrupts = <41 1>;
-   status = "disabled";
-  };
-
   pwm3: pwm@4002d000 {
    compatible = "nordic,nrf-pwm";
    reg = <0x4002d000 0x1000>;
@@ -703,18 +702,10 @@
    reg = <0x50000300 0x200
           0x50000800 0x300>;
    #gpio-cells = <2>;
-   ngpios = <16>;
+   ngpios = <10>;
    status = "disabled";
    port = <1>;
    gpiote-instance = <&gpiote>;
-  };
-
-  cryptocell: crypto@5002a000 {
-   compatible = "arm,cryptocell-310";
-   reg = <0x5002a000 0x1000>, <0x5002b000 0x1000>;
-   reg-names = "wrapper", "core";
-   interrupts = <42 1>;
-   status = "okay";
   };
  };
 };
@@ -727,23 +718,14 @@
 
  status = "disabled";
 };
-# 9 "C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52840_qiaa.dtsi" 2 3 4
+# 9 "C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52833_qiaa.dtsi" 2 3 4
 
 &flash0 {
- reg = <0x00000000 ((1024) * 1024)>;
+ reg = <0x00000000 ((512) * 1024)>;
 };
 
 &sram0 {
- reg = <0x20000000 ((256) * 1024)>;
-};
-
-&power {
- reg0: regulator@40000580 {
-  compatible = "nordic,nrf52x-regulator-hv";
-  reg = <0x40000580 0x1>;
-  regulator-name = "REG0";
-  status = "disabled";
- };
+ reg = <0x20000000 ((128) * 1024)>;
 };
 
 / {

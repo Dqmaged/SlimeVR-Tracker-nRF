@@ -3,8 +3,8 @@
 #define PM_CONFIG_H__
 #define PM_APP_OFFSET 0x0
 #define PM_APP_ADDRESS 0x0
-#define PM_APP_END_ADDRESS 0xfa000
-#define PM_APP_SIZE 0xfa000
+#define PM_APP_END_ADDRESS 0x7a000
+#define PM_APP_SIZE 0x7a000
 #define PM_APP_NAME app
 #define PM_APP_REGION flash_primary
 #define PM_APP_ID 0
@@ -13,9 +13,9 @@
 #define PM_0_LABEL APP
 #define PM_APP_DEV flash_controller
 #define PM_APP_DEFAULT_DRIVER_KCONFIG CONFIG_SOC_FLASH_NRF
-#define PM_NVS_STORAGE_OFFSET 0xfa000
-#define PM_NVS_STORAGE_ADDRESS 0xfa000
-#define PM_NVS_STORAGE_END_ADDRESS 0x100000
+#define PM_NVS_STORAGE_OFFSET 0x7a000
+#define PM_NVS_STORAGE_ADDRESS 0x7a000
+#define PM_NVS_STORAGE_END_ADDRESS 0x80000
 #define PM_NVS_STORAGE_SIZE 0x6000
 #define PM_NVS_STORAGE_NAME nvs_storage
 #define PM_NVS_STORAGE_REGION flash_primary
@@ -34,7 +34,7 @@
 #define PM_NUM 2
 #define PM_ALL_BY_SIZE "nvs_storage sram_primary app"
 #define PM_ADDRESS 0x0
-#define PM_SIZE 0xfa000
+#define PM_SIZE 0x7a000
 #define PM_SRAM_ADDRESS 0x20000000
 #define PM_SRAM_SIZE 0x3f000
 #endif /* PM_CONFIG_H__ */

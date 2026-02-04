@@ -1,9 +1,9 @@
 empty_file.o: C:/ncs/v3.2.0/zephyr/misc/empty_file.c \
  F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/boards/nekumori/sakuranrf/sakuranrf_uf2_chrysalis.dts \
  F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/boards/nekumori/sakuranrf/sakuranrf_uf2.dts \
- C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52840_qiaa.dtsi \
+ C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52833_qiaa.dtsi \
  C:/ncs/v3.2.0/zephyr/dts/common/mem.h \
- C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52840.dtsi \
+ C:/ncs/v3.2.0/zephyr/dts/arm/nordic/nrf52833.dtsi \
  C:/ncs/v3.2.0/zephyr/dts/arm/armv7-m.dtsi \
  C:/ncs/v3.2.0/zephyr/dts/common/skeleton.dtsi \
  C:/ncs/v3.2.0/zephyr/dts/vendor/nordic/nrf_common.dtsi \
