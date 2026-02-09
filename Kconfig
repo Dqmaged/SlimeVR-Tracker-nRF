@@ -252,7 +252,7 @@ config SENSOR_USE_MAG
 
 config USE_SENSOR_CLOCK
     bool "Use external IMU clock"
-    default y
+    default n
     help
         Use external IMU clock if it is present.
 
