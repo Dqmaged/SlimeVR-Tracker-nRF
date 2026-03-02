@@ -33,6 +33,11 @@ jobs:
               fileformat: "uf2",
               filename: "sakuranrf_Chrysalis_Tracker",
             },
+            {
+              boardname: "promicro_uf2/nrf52833/chrysalis",
+              fileformat: "uf2",
+              filename: "DQ_Chrysalis_Tracker",
+            },
           ]
     if: always()
     runs-on: ubuntu-latest
