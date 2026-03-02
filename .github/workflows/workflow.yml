@@ -34,7 +34,7 @@ jobs:
               filename: "sakuranrf_Chrysalis_Tracker",
             },
             {
-              boardname: "promicro_uf2/nrf52833/chrysalis",
+              boardname: "promicro_uf2/nrf52840/chrysalis",
               fileformat: "uf2",
               filename: "DQ_Chrysalis_Tracker",
             },
