@@ -27,13 +27,13 @@
 	pwmleds {
 		/delete-node/ pwm_led_0;
 		pwm_led0: pwm_led_0 {
-			pwms = <&pwm0 0 PWM_MSEC(1) PWM_POLARITY_INVERTED>; // Red
+			pwms = <&pwm0 0 PWM_MSEC(1) PWM_POLARITY_NORMAL>; // Red
 		};
 		pwm_led1: pwm_led_1 {
-			pwms = <&pwm0 1 PWM_MSEC(1) PWM_POLARITY_INVERTED>; // Green
+			pwms = <&pwm0 1 PWM_MSEC(1) PWM_POLARITY_NORMAL>; // Green
 		};
 		pwm_led2: pwm_led_2 {
-			pwms = <&pwm0 2 PWM_MSEC(1) PWM_POLARITY_INVERTED>; // Blue
+			pwms = <&pwm0 2 PWM_MSEC(1) PWM_POLARITY_NORMAL>; // Blue
 		};
 	};
 
