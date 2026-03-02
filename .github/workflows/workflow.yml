@@ -1,10 +1,10 @@
 on:
   pull_request:
     branches:
-      - main
+      - master
   push:
     branches:
-      - main
+      - master
   create:
   workflow_dispatch:
 
@@ -31,7 +31,7 @@ jobs:
             {
               boardname: "sakuranrf_uf2/nrf52833/chrysalis",
               fileformat: "uf2",
-              filename: "sakuranrf_Chrysalis_Tracker",
+              filename: "Sakura-nRF_Chrysalis_Tracker",
             },
             {
               boardname: "promicro_uf2/nrf52840/chrysalis",
