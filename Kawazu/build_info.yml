@@ -1,6 +1,25 @@
+cmake:
+  application:
+    source-dir: 'C:/ncs/v3.2.0/zephyr/share/sysbuild'
+  board:
+    name: 'kawazu_uf2'
+    path:
+     - 'C:/Users/dqmag/SlimeVR-Tracker-nRF/boards/nekumori/kawazu'
+    qualifiers: 'nrf52833'
+    revision: ''
+  images:
+   - name: 'SlimeVR-Tracker-nRF'
+     source-dir: 'F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF'
+     type: 'MAIN'
+  kconfig:
+    files:
+     - 'F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Kawazu/_sysbuild/empty.conf'
+     - 'F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Kawazu/_sysbuild/empty.conf'
+    user-files:
+     - 'F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Kawazu/_sysbuild/empty.conf'
+  sysbuild: 'true'
+version: '0.1.0'
 west:
-  command: C:\ncs\toolchains\b620d30767\opt\bin\Scripts\west build --build-dir c:/Users/dqmag/SlimeVR-Tracker-nRF/Kawazu
-    c:/Users/dqmag/SlimeVR-Tracker-nRF --pristine --board kawazu_uf2/nrf52833 --no-sysbuild
-    -- -DNCS_TOOLCHAIN_VERSION=NONE -DBOARD_ROOT=c:/users/dqmag/slimevr-tracker-nrf
-  topdir: c:\ncs\v2.9.0
-  version: 1.2.0
+  command: 'C:\ncs\toolchains\66cdf9b75e\opt\bin\Scripts\west build --build-dir f:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Kawazu f:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF --pristine --board kawazu_uf2/nrf52833 -- -DBOARD_ROOT=c:/users/dqmag/slimevr-tracker-nrf'
+  topdir: 'c:\ncs\v3.2.0'
+  version: '1.4.0'

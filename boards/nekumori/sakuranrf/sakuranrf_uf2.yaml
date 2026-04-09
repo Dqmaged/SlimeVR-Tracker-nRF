@@ -3,11 +3,11 @@
 
 identifier: sakuranrf_uf2
 name: sakuranrf_uf2
-vendor: nordic
+vendor: nekumori
 type: mcu
 arch: arm
-ram: 256
-flash: 1024
+ram: 128
+flash: 512
 toolchain:
   - zephyr
   - gnuarmemb

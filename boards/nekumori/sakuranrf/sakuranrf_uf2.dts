@@ -6,44 +6,20 @@
 
 //move to dtsi?
 &pinctrl {
-	i2c0_default: i2c0_default {
-		group1 {
-			psels = <NRF_PSEL(TWIM_SDA, 0, 0)>, <NRF_PSEL(TWIM_SCL, 0, 1)>;
-			bias-disable;
-		};
-	};
-
-	i2c0_sleep: i2c0_sleep {
-		group1 {
-			psels = <NRF_PSEL(TWIM_SDA, 0, 0)>, <NRF_PSEL(TWIM_SCL, 0, 1)>;
-			bias-disable;
-			low-power-enable;
-		};
-	};
-
 	pwm0_default: pwm0_default {
 		group1 {
-			psels = <NRF_PSEL(PWM_OUT0, 0, 11)>;
+			psels = <NRF_PSEL(PWM_OUT0, 0, 2)>, // Red
+				<NRF_PSEL(PWM_OUT1, 0, 4)>, // Green
+				<NRF_PSEL(PWM_OUT2, 0, 29)>; // Blue
 			nordic,drive-mode = <NRF_DRIVE_D0S1>;
 		};
 	};
 
 	pwm0_sleep: pwm0_sleep {
 		group1 {
-			psels = <NRF_PSEL(PWM_OUT0, 0, 11)>;
-			low-power-enable;
-		};
-	};
-
-	pwm1_default: pwm1_default {
-		group1 {
-			psels = <NRF_PIN_DISCONNECTED>;
-		};
-	};
-
-	pwm1_sleep: pwm1_sleep {
-		group1 {
-			psels = <NRF_PIN_DISCONNECTED>;
+			psels = <NRF_PSEL(PWM_OUT0, 0, 2)>, // Red
+				<NRF_PSEL(PWM_OUT1, 0, 4)>, // Green
+				<NRF_PSEL(PWM_OUT2, 0, 29)>; // Blue
 			low-power-enable;
 		};
 	};
@@ -83,46 +59,64 @@
 		pwm_led0: pwm_led_0 {
 			pwms = <&pwm0 0 PWM_MSEC(1) PWM_POLARITY_NORMAL>;
 		};
+		pwm_led1: pwm_led_1 {
+			pwms = <&pwm0 1 PWM_MSEC(1) PWM_POLARITY_NORMAL>;
+		};
+		pwm_led2: pwm_led_2 {
+			pwms = <&pwm0 2 PWM_MSEC(1) PWM_POLARITY_NORMAL>;
+		};
+	};
+
+	leds {
+		compatible = "gpio-leds";
+		led0: led_0 {
+			gpios = <&gpio0 2 GPIO_OPEN_SOURCE>;
+		};
+		led1: led_1 {
+			gpios = <&gpio0 4 GPIO_OPEN_SOURCE>;
+		};
+		led2: led_2 {
+			gpios = <&gpio0 29 GPIO_OPEN_SOURCE>;
+		};
 	};
 
 	buttons {
 		compatible = "gpio-keys";
 		button0: button_0 {
-			gpios = <&gpio1 0 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+			gpios = <&gpio0 5 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
 			label = "Push button switch 0";
 		};
 	};
 
 	aliases {
-		// sw0 = &button0; // Uncomment to Enable SW0
+		sw0 = &button0;
 		pwm-led0 = &pwm_led0;
-	};
-
-	pwmclock: pwmclock {
-		compatible = "pwm-clock";
-		#clock-cells = <1>;
-		pwms = <&pwm1 0 PWM_HZ(32768) PWM_POLARITY_NORMAL>;
+		pwm-led1 = &pwm_led1;
+		pwm-led2 = &pwm_led2;
+		led0 = &led0;
+		led1 = &led1;
+		led2 = &led2;
 	};
 
 	battery-divider {
 		compatible = "voltage-divider";
 		status = "okay";
-		io-channels = <&adc 4>; // Measure VDDHDIV5
-		output-ohms = <1>;
-		full-ohms = <5>;
+		io-channels = <&adc 4>;
+		output-ohms = <4220000>;
+		full-ohms = <(5600000+4220000)>;
 	};
 
 	zephyr,user {
-		int0-gpios = <&gpio0 17 0>;
-		led-gpios = <&gpio0 15 GPIO_OPEN_SOURCE>;
-		// clk-gpios = <&gpio0 20 GPIO_OPEN_DRAIN>; // Uncomment and set to correct pin if using an external clock (crystal oscillator)
-		vcc-gpios = <&gpio0 31 0>;
+		int0-gpios = <&gpio0 15 0>;
+		//chg-gpios = <&gpio0 28 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+		//chg-en-gpios = <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		//stby-gpios = <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+		//clk-gpios = <&gpio0 30 (GPIO_OPEN_DRAIN)>;
+		led0-gpios = <&gpio0 2 (GPIO_OPEN_SOURCE)>;
+		led1-gpios = <&gpio0 4 (GPIO_OPEN_SOURCE)>;
+		led2-gpios = <&gpio0 29 (GPIO_OPEN_SOURCE)>;
 	};
 
-};
-
-&reg0 {
-	status = "okay";
 };
 
 &reg1 {
@@ -145,41 +139,10 @@
 	status = "okay";
 };
 
-&i2c0 {
-	compatible = "nordic,nrf-twim";
-	status = "okay";
-	zephyr,concat-buf-size = <1023>;
-	zephyr,flash-buf-max-size = <1023>;
-	clock-frequency = <I2C_BITRATE_FAST>;
-	pinctrl-0 = <&i2c0_default>;
-	pinctrl-1 = <&i2c0_sleep>;
-	pinctrl-names = "default", "sleep";
-
-	imu: imu@0 { // any address out of range (00, 7f, etc. will search all addresses and stored address first if available, specify an address here to search first otherwise
-		compatible = "i2c-device";
-		label = "imu";
-		reg = <0>;
-	};
-
-	mag: mag@0 {
-		compatible = "i2c-device";
-		label = "mag";
-		reg = <0>;
-	};
-
-};
-
 &pwm0 {
 	status = "okay";
 	pinctrl-0 = <&pwm0_default>;
 	pinctrl-1 = <&pwm0_sleep>;
-	pinctrl-names = "default", "sleep";
-};
-
-&pwm1 {
-	status = "okay";
-	pinctrl-0 = <&pwm1_default>;
-	pinctrl-1 = <&pwm1_sleep>;
 	pinctrl-names = "default", "sleep";
 };
 
@@ -190,10 +153,6 @@ zephyr_udc0: &usbd {
 		compatible = "zephyr,cdc-acm-uart";
 	};
 };
-
-//&cryptocell {
-//	status = "disabled";
-//};
 
 &nfct {
 	status = "disabled";
@@ -206,7 +165,7 @@ zephyr_udc0: &usbd {
 	pinctrl-0 = <&spi3_default>;
 	pinctrl-1 = <&spi3_sleep>;
 	pinctrl-names = "default", "sleep";
-	cs-gpios = <&gpio0 22 GPIO_ACTIVE_LOW>;
+	cs-gpios = <&gpio0 3 GPIO_ACTIVE_LOW>;
 
 	imu_spi: imu_spi@0 {
 		compatible = "vnd,spi-device";

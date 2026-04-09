@@ -1,0 +1,7 @@
+default: SlimeVR-Tracker-nRF
+build_dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Kawazu
+domains:
+  - name: SlimeVR-Tracker-nRF
+    build_dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Kawazu/SlimeVR-Tracker-nRF
+flash_order:
+  - SlimeVR-Tracker-nRF
