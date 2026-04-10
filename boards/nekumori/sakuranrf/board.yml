@@ -6,5 +6,3 @@ board:
   vendor: nekumori
   socs:
     - name: nrf52833
-      variants:
-      - name: 'chrysalis'
