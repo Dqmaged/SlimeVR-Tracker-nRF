@@ -1,0 +1,20 @@
+{
+  "toolchainPath": "c:\\ncs\\toolchains\\66cdf9b75e",
+  "sdkPath": "c:\\ncs\\v3.2.0",
+  "board": "sakuranrf_uf2/nrf52833",
+  "boardDir": "f:\\nRF-Firmware-DqEdit\\SlimeVR-Tracker-nRF\\boards\\nekumori\\sakuranrf",
+  "boardDirs": [
+    "f:\\nRF-Firmware-DqEdit\\SlimeVR-Tracker-nRF\\boards\\nekumori\\sakuranrf"
+  ],
+  "optimizations": "none",
+  "cmakeArgs": [
+    "-DSlimeVR-Tracker-nRF_DEBUG_THREAD_INFO=On"
+  ],
+  "confFiles": [],
+  "buildDirectory": "Sakura-nRF",
+  "kconfigFragments": [],
+  "snippets": [],
+  "dtcOverlays": [],
+  "extraDtcOverlays": [],
+  "boardRoot": "f:\\nRF-Firmware-DqEdit\\SlimeVR-Tracker-nRF"
+}

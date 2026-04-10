@@ -1,0 +1,13 @@
+# Target labels
+ SlimeVR-Tracker-nRF
+# Source files and their labels
+F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/CMakeFiles/SlimeVR-Tracker-nRF
+F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/CMakeFiles/SlimeVR-Tracker-nRF.rule
+F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/CMakeFiles/SlimeVR-Tracker-nRF-complete.rule
+F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-build.rule
+F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-configure.rule
+F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-download.rule
+F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-install.rule
+F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-mkdir.rule
+F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-patch.rule
+F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-prefix/src/SlimeVR-Tracker-nRF-stamp/SlimeVR-Tracker-nRF-update.rule

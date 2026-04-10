@@ -1,0 +1,7 @@
+default: SlimeVR-Tracker-nRF
+build_dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF
+domains:
+  - name: SlimeVR-Tracker-nRF
+    build_dir: F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/Sakura-nRF/SlimeVR-Tracker-nRF
+flash_order:
+  - SlimeVR-Tracker-nRF

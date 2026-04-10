@@ -1,0 +1,2 @@
+# Load board Kconfig descriptions.
+osource "F:/nRF-Firmware-DqEdit/SlimeVR-Tracker-nRF/boards/nekumori/sakuranrf/Kconfig.sakuranrf_uf2"
