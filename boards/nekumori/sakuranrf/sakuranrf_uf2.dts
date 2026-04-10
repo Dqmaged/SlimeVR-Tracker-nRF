@@ -121,7 +121,7 @@
 	};
 
 	zephyr,user {
-		int0-gpios = <&gpio0 15 0>;
+		int0-gpios = <&gpio0 17 0>;
 		led0-gpios = <&gpio0 2 (GPIO_OPEN_SOURCE)>;
 		led1-gpios = <&gpio0 4 (GPIO_OPEN_SOURCE)>;
 		led2-gpios = <&gpio0 29 (GPIO_OPEN_SOURCE)>;
@@ -188,7 +188,7 @@ zephyr_udc0: &usbd {
 	pinctrl-0 = <&spi3_default>;
 	pinctrl-1 = <&spi3_sleep>;
 	pinctrl-names = "default", "sleep";
-	cs-gpios = <&gpio0 22 GPIO_ACTIVE_LOW>;
+	cs-gpios = <&gpio0 3 GPIO_ACTIVE_LOW>;
 
 	imu_spi: imu_spi@0 {
 		compatible = "vnd,spi-device";
