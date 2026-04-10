@@ -29,7 +29,7 @@ jobs:
               filename: "Kawazu_Tracker",
             },
             {
-              boardname: "sakuranrf_uf2/nrf52833",
+              boardname: "sakuranrf_uf2/nrf52833/chrysalis",
               fileformat: "uf2",
               filename: "Sakura-nRF_Tracker",
             },
