@@ -75,26 +75,26 @@
 	pwmleds {
 		compatible = "pwm-leds";
 		pwm_led0: pwm_led_0 {
-			pwms = <&pwm0 0 PWM_MSEC(1) PWM_POLARITY_NORMAL>; // Red
+			pwms = <&pwm0 0 PWM_MSEC(1) PWM_POLARITY_INVERTED>; // Red
 		};
 		pwm_led1: pwm_led_1 {
-			pwms = <&pwm0 1 PWM_MSEC(1) PWM_POLARITY_NORMAL>; // Green
+			pwms = <&pwm0 1 PWM_MSEC(1) PWM_POLARITY_INVERTED>; // Green
 		};
 		pwm_led2: pwm_led_2 {
-			pwms = <&pwm0 2 PWM_MSEC(1) PWM_POLARITY_NORMAL>; // Blue
+			pwms = <&pwm0 2 PWM_MSEC(1) PWM_POLARITY_INVERTED>; // Blue
 		};
 	};
 
 	leds {
 		compatible = "gpio-leds";
 		led0: led_0 {
-			gpios = <&gpio0 2 GPIO_OPEN_SOURCE>; // Red
+			gpios = <&gpio0 2 GPIO_ACTIVE_LOW>; // Red
 		};
 		led1: led_1 {
-			gpios = <&gpio0 4 GPIO_OPEN_SOURCE>; // Green
+			gpios = <&gpio0 4 GPIO_ACTIVE_LOW>; // Green
 		};
 		led2: led_2 {
-			gpios = <&gpio0 29 GPIO_OPEN_SOURCE>; // Blue
+			gpios = <&gpio0 29 GPIO_ACTIVE_LOW>; // Blue
 		};
 	};
 
@@ -132,9 +132,9 @@
 
 	zephyr,user {
 		int0-gpios = <&gpio0 17 0>;
-		led0-gpios = <&gpio0 2 (GPIO_OPEN_SOURCE)>;
-		led1-gpios = <&gpio0 4 (GPIO_OPEN_SOURCE)>;
-		led2-gpios = <&gpio0 29 (GPIO_OPEN_SOURCE)>;
+		led0-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW)>;
+		led1-gpios = <&gpio0 4 (GPIO_ACTIVE_LOW)>;
+		led2-gpios = <&gpio0 29 (GPIO_ACTIVE_LOW)>;
 		// clk-gpios = <&gpio0 20 GPIO_OPEN_DRAIN>; // Uncomment and set to correct pin if using an external clock (crystal oscillator)
 		vcc-gpios = <&gpio0 31 0>;
 	};
